@@ -1,0 +1,15 @@
+test_constant_normalization (__main__.AnalysisTests.test_constant_normalization) ... ok
+test_empty_dataset (__main__.AnalysisTests.test_empty_dataset) ... ok
+test_input_unchanged (__main__.AnalysisTests.test_input_unchanged) ... ok
+test_invalid_thresholds (__main__.AnalysisTests.test_invalid_thresholds) ... ok
+test_invalid_values (__main__.AnalysisTests.test_invalid_values) ... ok
+test_keyword_arguments (__main__.AnalysisTests.test_keyword_arguments) ... ok
+test_known_results (__main__.AnalysisTests.test_known_results) ... ok
+test_required_dataset_sizes (__main__.AnalysisTests.test_required_dataset_sizes) ... ok
+test_small_datasets (__main__.AnalysisTests.test_small_datasets) ... ok
+test_strict_outlier_boundary (__main__.AnalysisTests.test_strict_outlier_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.140s
+
+OK
