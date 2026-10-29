@@ -7,7 +7,7 @@
 // Returns 1 if the name exists, 0 if missing, or -1 on a read error.
 int find_name(DIR *directory, const char *name)
 {
-    struct dirent *entry; // declares a pointer to a 'dirent' (directory entry) structure, which represents a single file or directory inside an open directory stream. 
+    struct dirent *entry; // declares a pointer to a 'dirent' (directory entry) structure, which represents a single file or directory inside an open directory stream.
 
     rewinddir(directory);
     errno = 0;
