@@ -1,0 +1,2 @@
+project-01/data_sync:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=721dee3cd61201197f163426273ba00d4a8a1e34, for GNU/Linux 3.2.0, not stripped
+project-01/data_sync_v2: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=b39dcac2e0f96d6ceca9ba4ea6eb13eb6f17fd1f, for GNU/Linux 3.2.0, not stripped
