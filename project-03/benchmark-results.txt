@@ -1,0 +1,22 @@
+Python: 3.14.4
+Platform: Linux-7.0.0-38-generic-x86_64-with-glibc2.43
+Processor: not reported
+Repeated measurements per implementation: 5
+Outlier threshold: 1.5 standard deviations
+Dataset generation and module imports excluded from timings.
+Validation, calculations, and result allocation included.
+One warm-up per implementation; measurement order alternates.
+
+| Values | Python average (s) | C average (s) | Speedup |
+| --- | --- | --- | --- |
+| 1,000 | 0.00058754 | 0.00002718 | 21.62x |
+Python samples (s): 0.00050143, 0.00080620, 0.00059059, 0.00049029, 0.00054919
+C samples (s): 0.00002631, 0.00002363, 0.00003480, 0.00002346, 0.00002769
+
+| 100,000 | 0.05146817 | 0.00362100 | 14.21x |
+Python samples (s): 0.05273384, 0.05076747, 0.05117708, 0.05122711, 0.05143535
+C samples (s): 0.00373155, 0.00382704, 0.00358745, 0.00362915, 0.00332982
+
+| 1,000,000 | 0.52180596 | 0.03968786 | 13.15x |
+Python samples (s): 0.55524462, 0.57965833, 0.51073260, 0.48481326, 0.47858098
+C samples (s): 0.04392665, 0.03555777, 0.04383318, 0.03634193, 0.03877975
